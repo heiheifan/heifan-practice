@@ -35,9 +35,16 @@
         <lmbok.version>1.18.4</lmbok.version>
         <java.version>1.8</java.version>
         <easyexcel.version>2.2.10</easyexcel.version>
+        <guava.version>31.0.1-jre</guava.version>
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
+        </dependency>
         <!-- SpringBoot web starter -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
