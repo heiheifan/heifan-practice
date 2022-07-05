@@ -12,6 +12,7 @@
         <module>heifan-common</module>
         <module>heifan-demo-test</module>
         <module>heifan-design-patterns</module>
+        <module>heifan-multithreading</module>
     </modules>
 
     <parent>
